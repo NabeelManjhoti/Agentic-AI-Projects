@@ -35,19 +35,19 @@ your-project/
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
-
-```bash
 git clone https://github.com/your-username/chainlit-chatbot.git
 cd chainlit-chatbot
+
 2. Install Dependencies
 uv install -r requirements.txt
 Or manually:
-
 uv install chainlit python-dotenv
+
 3. Create a .env File
 GOOGLE_API_KEY=your-openai-api-key
 GOOGLE_BASE_URL=https://api.openai.com/v1
 GOOGLE_MODEL=gpt-3.5-turbo
+
 💻 Run Locally
 chainlit run main.py
 Then open http://localhost:8000
