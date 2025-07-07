@@ -1,0 +1,21 @@
+[project]
+name = "oms"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Nabeel", email = "nabeelalimanjhoti@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "chainlit>=2.6.0",
+    "dotenv>=0.9.9",
+    "openai-agents>=0.1.0",
+]
+
+[project.scripts]
+oms = "oms:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
